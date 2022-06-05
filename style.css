@@ -1,0 +1,47 @@
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+header {
+    font-family: 'Monoton', cursive;
+    margin-bottom: 150px;
+
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 70px;
+    background: -webkit-linear-gradient(rgb(248, 2, 2), rgb(81, 207, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: pre-wrap;
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+.color-set {
+    color: indianred;
+}
+
+.flexible-container {
+    display: flex;
+    margin: 30px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.box-shadow-item {
+    box-shadow: 10px 10px 40px gray;
+}
