@@ -1,5 +1,6 @@
 body {
     font-family: 'Signika Negative', sans-serif;
+    background-color: blanchedalmond;
 }
 
 header {
@@ -34,14 +35,24 @@ h2 {
 
 .half-width {
     width: 50%;
-    padding: 20px;
+    padding: 10px;
     background-color: antiquewhite;
-}
-
-.half-width img {
-    width: 80%;
+    border-radius: 5px;
 }
 
 .box-shadow-item {
     box-shadow: 10px 10px 40px gray;
+}
+
+h4 {
+    margin-bottom: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
