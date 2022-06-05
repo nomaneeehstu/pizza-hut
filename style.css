@@ -56,3 +56,9 @@ h4 {
     color: white;
     font-weight: 700;
 }
+
+.left-boder-color {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
